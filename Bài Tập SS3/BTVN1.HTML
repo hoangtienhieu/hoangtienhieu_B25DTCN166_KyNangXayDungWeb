@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài Tập SS3 - BTVN1</title>
+</head>
+<body>
+    <h1>Form Dặt Lịch Tư Vấn Học Tập</h1>
+    <form>
+        <label for="username">Họ và tên:</label>
+        <input type="text" id="username" name="username" required>
+    </form>
+    <br/>
+    <form>
+        <label for="datetime_local">Chọn ngày giờ:</label>
+        <input type="datetime-local" id="datetime_local" name="datetime_local" required>
+    </form>
+    <br/>
+    <form>
+        <label for="appointment_type">Loại dịch vụ:</label>
+        <select id="appointment_type" name="appointment_type" required>
+            <option value="tuvan">Tư vấn học tập</option>
+            <option value="huongnghiep">Hướng nghiệp</option>
+        </select>
+    </form>
+    <br/>
+    <form>
+        <label for="notes">Ghi chú:</label>
+        <textarea id="notes" name="notes" rows="4" cols="20"></textarea>
+    </form>
+    <br/>
+    <button>Đặt lịch</button>
+</body>

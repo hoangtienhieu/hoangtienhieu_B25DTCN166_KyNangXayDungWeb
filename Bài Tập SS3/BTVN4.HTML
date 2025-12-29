@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài Tập SS3 - BTVN4</title>
+</head>
+<body>
+    <form>
+        <label for="name">Họ và tên:</label>
+        <input type="text" id="name" name="name" required>
+        <br>/><br/>
+        <label for="day">Ngày sinh:</label>
+        <input type="date" id="day" name="day" required>
+        <br/><br/>
+        <label for="gender">Giới tính:</label>
+        <input type="radio" id="male" name="gender" value="male" required> <label for="male">Nam</label>
+        <input type="radio" id="female" name="gender" value="female" required> <label for="female">Nữ</label>
+        <br/><br/>
+        <label>Số căn cước công dân:</label>
+        <input type="text" name="cccd" pattern="^[0-9]{12}$">
+        <br/><br/>
+    </form>
+</body>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài Tập SS3 - BTVN2</title>
+</head>
+<body>
+    <h1>Form Đặt Mua Tài Liệu Lập Trình</h1>
+    <form action="https://codegym.vn/blog/tong-hop-tai-lieu-hoc-lap-trinh-co-ban-cho-nguoi-moi/" method="get">
+        <label for="tailieu">Chọn tài liệu:</label>
+        <select id="tailieu" name="tailieu" required>
+            <option value="tailieu">Tài liệu môn HTML&CSS</option>
+            <option value="tailieu">Tài liệu môn JavaScript</option>
+        </select>
+    </form>
+    <br/>
+    <form>
+        <label for="soluong">Số lượng:</label>
+        <input type="number" id="soluong" name="soluong" min="1" required>
+    </form>
+    <br/>
+    <form>
+        <label for="ghichu">Ghi chú:</label>
+        <textarea id="ghichu" name="ghichu" rows="4" cols="20"></textarea>
+    </form> 
+    <br/>
+    <form>
+        <label for="diachigiaohang">Địa chỉ giao hàng:</label>
+        <textarea id="diachigiaohang" name="diachigiaohang" rows="4" cols="20"></textarea>
+    </form> 
+    <br/>
+    <button>Đặt mua</button>
+</body>
