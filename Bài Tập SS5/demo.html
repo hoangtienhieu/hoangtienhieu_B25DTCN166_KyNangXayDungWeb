@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo CSS Cơ Bản</title>
+
+    <style>
+        /* ===== THIẾT LẬP CHUNG CHO TRANG ===== */
+        body {
+            font-family: Arial, sans-serif;   /* Kiểu chữ */
+            background-color: #f2f2f2;        /* Màu nền trang */
+            margin: 0;                        /* Xóa margin mặc định */
+        }
+
+        /* ===== HEADER ===== */
+        header {
+            background-color: #1eff29;        /* Màu nền */
+            color: black;                     /* Màu chữ */
+            text-align: center;               /* Căn giữa chữ */
+            padding: 30px;                    /* Khoảng cách trong */
+        }
+
+        header h1 {
+            font-size: 40px;                  /* Cỡ chữ */
+            font-weight: bold;                /* Chữ đậm */
+            margin-bottom: 10px;              /* Khoảng cách dưới */
+        }
+
+        header p {
+            font-size: 20px;
+            font-style: italic;               /* Chữ nghiêng */
+        }
+
+        /* ===== KHỐI NỘI DUNG ===== */
+        .content {
+            width: 80%;                       /* Chiều rộng */
+            max-width: 800px;
+            margin: 30px auto;                /* Căn giữa khối */
+            padding: 20px;
+            background-color: white;
+            border: 2px solid black;          /* Viền */
+            border-radius: 10px;              /* Bo góc */
+        }
+
+        /* ===== ĐOẠN VĂN ===== */
+        .content p {
+            line-height: 1.6;                 /* Khoảng cách dòng */
+            text-align: justify;
+        }
+
+        /* ===== NÚT BẤM ===== */
+        .btn {
+            display: inline-block;            /* Kiểu hiển thị */
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: black;
+            color: white;
+            text-decoration: none;            /* Bỏ gạch chân */
+            cursor: pointer;                  /* Con trỏ chuột */
+            opacity: 0.9;                     /* Độ trong suốt */
+        }
+
+        .btn:hover {
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Văn Phòng Nha Khoa</h1>
+        <p>Chăm sóc răng miệng – Mang lại nụ cười tươi sáng</p>
+    </header>
+
+    <div class="content">
+        <h2>Nội dung giới thiệu</h2>
+        <p>
+            Đây là ví dụ demo sử dụng các thuộc tính CSS cơ bản như màu sắc,
+            căn chỉnh, kích thước, khoảng cách, viền và kiểu chữ.
+        </p>
+
+        <a class="btn">Xem thêm</a>
+    </div>
+
+</body>
+</html>
+x   
