@@ -1,0 +1,50 @@
+body{
+    background-color: #fff7ed;
+}
+h1{
+    text-align: center;
+    color: #b45309;
+}
+.menu{
+    text-align: center;
+    background-color: #fed7aa;
+    coler: #b45309;
+}
+.menu a{
+    color: #b45309;           
+    text-decoration: none;     
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px;            
+    font-family: "cursive";
+}
+.menu a:hover{
+    background-color: #78350f
+    color:white;
+}
+img{
+    text-align: center;
+}
+h2{
+    color: white:
+}
+.trang-chu{
+     background-color: white;
+}
+.gioi-thieu{
+    background-color: white;
+}
+.bac-si{
+    background-color: white;
+}
+.menu-bac-si li:hover{
+    background-color: #fcd34d;
+}
+.uy-tin{
+    background-color: white;
+}
+footer{
+    text-align: center;
+    background-color: #78350f;
+    color:white;
+}
