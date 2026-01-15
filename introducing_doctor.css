@@ -2,8 +2,10 @@ body{
     background-color: #fff7ed;
 }
 h1{
+    background-color: #fde68a;
     text-align: center;
     color: #b45309;
+    font-family: cursive;
 }
 .menu{
     text-align: center;

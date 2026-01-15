@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    background-color: #1eff29;
+    color: black;
+    width: auto;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+}
+p{
+    color: black;
+    text-align: center;
+}
