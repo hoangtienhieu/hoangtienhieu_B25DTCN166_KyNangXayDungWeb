@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 255, 255); 
+}
+header{
+   background-color: rgba(0, 0, 0, 0.816);
+   text-align: center;
+   color: rgb(224, 234, 238);
+   padding : 100px
+}
+.menu{
+    background-color:black;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width:100%;
+}
+.phong-nen{
+    background-color: aliceblue;
+    margin: 10px;
+}
+.gioi-thieu{
+    color:orange;
+
+}
+.dich-vu{
+    text-align: center;
+}
+.dich-vu a:hover{
+    background-color:bisque;
+}
+.dat-lich{
+    text-align: center;
+    margin: 10px;
+}
+footer{
+    background-color:black;
+    text-align: center;
+    color:aliceblue;
+    margin:0;
+    padding:20px;
+    bottom:0;
+    width:100%;
+}

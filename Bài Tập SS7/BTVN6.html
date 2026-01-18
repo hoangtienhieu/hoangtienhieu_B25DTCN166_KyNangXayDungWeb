@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .all {
+            background-color: rgb(199, 194, 194);
+            width: 400px;
+            height: 250px
+        }
+
+        .banner {
+            background-color: white;
+            width: 390px;
+            height: 240px;
+            border-radius: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            position: relative;
+            left: 5px;
+            top: 5px;
+            right: 5px;
+            bottom: 5px;
+        }
+
+        .text {
+            position: relative;
+            left: 15px;
+            top: 15px;
+        }
+
+        .nr {
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .dt {
+            background-color: rgb(249, 227, 185);
+            text-transform: uppercase;
+            font-weight: bolder;
+            color: orange;
+            padding: 5px 10px;
+            position: relative;
+            left: 35px;
+            border-radius: 10px;
+            font-size: 15px;
+        }
+
+        .text1 {
+            color: rgb(140, 137, 137);
+        }
+
+        div strong {
+            color: black;
+        }
+
+        progress {
+            width: 300px;
+            height: 10px;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        progress::-webkit-progress-bar {
+            background-color: #eee;
+        }
+
+        progress::-webkit-progress-value {
+            background-color: #1eff29;
+        }
+        .tt{
+            font-weight: bold;
+        }
+        .dau{
+            color: rgb(116, 112, 112);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="all">
+        <div class="banner">
+            <div class="text">
+                <div><span class="nr">Niềng răng chỉnh nha</span><span class="dt">Đăng điều trị</span></div>
+                <br>
+                <div class="text1">Bác sĩ &#xf556; : <strong>BS. Nguyễn Minh Tâm</strong></div>
+                <div class="text1">Chi phí &#9000; : <strong>25.000.000 đ</strong></div>
+                <p class="tt">Tiến trình điều trị </p>
+                <progress value="70" max="100"></progress>
+                <p class="dau">Bắt đầu : 10/03/2025</p>
+                <p class="dau">Dự kiến hoàn thành : 10/03/2026</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
