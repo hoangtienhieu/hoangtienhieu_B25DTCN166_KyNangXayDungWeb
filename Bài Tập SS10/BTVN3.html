@@ -5,8 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BTVN3</title>
     <link rel="stylesheet" href="BTVN3.css">
+    <script>
+        document.addEventListener("contextmenu", e => e.preventDefault());
+
+        document.addEventListener("keydown", e => {
+        if (
+            e.key === "F12" ||
+           (e.ctrlKey && e.shiftKey && ["I", "J", "C"].includes(e.key)) ||
+           (e.ctrlKey && e.key === "U")
+        ) {
+        e.preventDefault();
+        }
+    });
+</script>
+
 </head>
 <body>
-
+    <section class="menu">
+         <div class="item">
+            <img src="salab.jpg" alt="Ảnh salab">
+            <br/>
+            <strong>Vegetable salab</strong>
+        </div>
+        <div class="item">
+            <img src="tomato.jpg" alt="Ảnh mỳ">
+            <br/>
+            <strong>Pasta With Tomato and Basil</strong>
+        </div>
+        <div class="item">
+            <img src="fruit.jpg" alt="Ảnh salab hoa quả">
+            <br/>
+            <strong>Fruit Salab</strong>
+        </div>
+        <div class="item">
+            <img src="egg.jpg" alt="Ảnh món egg">
+            <br/>
+            <strong>Indian Egg Curry</strong>
+        </div>
+    </section>
 </body>
 </html>
