@@ -21,4 +21,26 @@ section{
     gap: 20px;
     justify-content: space-between;
 }
-
+.div-tong{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    padding: 10px;
+}
+.div-cuoi{
+    display: flex;
+    justify-content: space-between;
+}
+.div-tien{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+.gia-cu{
+    text-decoration: line-through;
+}
+.mau-tien{
+    color: #49BBBD;
+    font-weight: bold;
+}
