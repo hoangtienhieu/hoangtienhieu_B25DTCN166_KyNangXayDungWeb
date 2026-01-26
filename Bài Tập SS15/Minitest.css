@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+section{
+    padding: 0 40px;
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+.div1{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
